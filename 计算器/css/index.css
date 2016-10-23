@@ -1,0 +1,41 @@
+.content{
+	width: 270px;
+	height: 375px;
+	border: 2px solid #7f7f7f;
+	margin:100px auto 0px;
+	border-radius: 5px;
+}
+#show{
+	width: 230px;
+	height: 48px;
+	border:1px solid #000;
+	background: #424242;
+	display: block;
+	margin:18px auto 0px;
+	color: #fff;
+	font-size: 18px;
+	text-align: right;
+	padding-right: 5px;
+}
+.clearfix:after{
+	content: '';
+	clear:both;
+	overflow: hidden;
+	display: block;
+}
+ul{
+	width: 248px;
+	margin:0 auto;
+}
+li{
+	float: left;
+	width: 50px;
+	height: 38px;
+	background: #d0d0d0;
+	text-align: center;
+	line-height: 38px;
+	vertical-align: middle;
+	border: 1px solid #000;
+	border-radius: 5px;
+	margin: 5px;
+}
